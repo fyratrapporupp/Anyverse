@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "AnyverseView.h"
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet AnyverseView *anyverseView;
+- (IBAction)zoom:( UIPinchGestureRecognizer *)sender;
+- (IBAction)pan:(UIPanGestureRecognizer *)sender;
 
 @end

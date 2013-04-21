@@ -12,6 +12,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    if ( CGFLOAT_IS_DOUBLE )
+        NSLog( @"double" );
     // Override point for customization after application launch.
     return YES;
 }

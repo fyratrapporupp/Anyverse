@@ -19,6 +19,22 @@
 		EA587CC0170B6D7F00BDE361 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA587CBE170B6D7F00BDE361 /* MainStoryboard_iPhone.storyboard */; };
 		EA587CC3170B6D7F00BDE361 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA587CC1170B6D7F00BDE361 /* MainStoryboard_iPad.storyboard */; };
 		EA587CC6170B6D7F00BDE361 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA587CC5170B6D7F00BDE361 /* ViewController.m */; };
+		EA587CCE170C9F8F00BDE361 /* AnyverseView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA587CCD170C9F8F00BDE361 /* AnyverseView.m */; };
+		EA587CD4170CA10A00BDE361 /* Universe.m in Sources */ = {isa = PBXBuildFile; fileRef = EA587CD3170CA10A00BDE361 /* Universe.m */; };
+		EA587CD8170CA37C00BDE361 /* RandomGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA587CD7170CA37C00BDE361 /* RandomGenerator.m */; };
+		EA752C6E17206F0B00E19CA8 /* NavigationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA752C6D17206F0B00E19CA8 /* NavigationModel.m */; };
+		EA752C7117208F4500E19CA8 /* SpiralGalaxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA752C7017208F4500E19CA8 /* SpiralGalaxy.m */; };
+		EA752C74172090DF00E19CA8 /* PlanetarySystem.m in Sources */ = {isa = PBXBuildFile; fileRef = EA752C73172090DF00E19CA8 /* PlanetarySystem.m */; };
+		EA752C77172094F300E19CA8 /* GalaxyCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = EA752C76172094F300E19CA8 /* GalaxyCluster.m */; };
+		EA752C7A1720959800E19CA8 /* Stellar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA752C791720959800E19CA8 /* Stellar.m */; };
+		EA752C7D1720A2E100E19CA8 /* StarCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = EA752C7C1720A2E100E19CA8 /* StarCluster.m */; };
+		EA752C801720A5AE00E19CA8 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = EA752C7F1720A5AE00E19CA8 /* Planet.m */; };
+		EA95908D1722DB8700580FFD /* DNPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EA95908C1722DB8700580FFD /* DNPoint.m */; };
+		EA9590901722DBAB00580FFD /* DNRect.m in Sources */ = {isa = PBXBuildFile; fileRef = EA95908F1722DBAB00580FFD /* DNRect.m */; };
+		EA9590931722DBB700580FFD /* DNSize.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9590921722DBB700580FFD /* DNSize.m */; };
+		EA9590961723516D00580FFD /* SuperGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9590951723516C00580FFD /* SuperGroup.m */; };
+		EA959099172352EF00580FFD /* SuperSuperGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EA959098172352EF00580FFD /* SuperSuperGroup.m */; };
+		EA95909C1723532200580FFD /* SuperSuperSuperGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EA95909B1723532200580FFD /* SuperSuperSuperGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +55,38 @@
 		EA587CC2170B6D7F00BDE361 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		EA587CC4170B6D7F00BDE361 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EA587CC5170B6D7F00BDE361 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA587CCC170C9F8F00BDE361 /* AnyverseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnyverseView.h; sourceTree = "<group>"; };
+		EA587CCD170C9F8F00BDE361 /* AnyverseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnyverseView.m; sourceTree = "<group>"; };
+		EA587CD2170CA10A00BDE361 /* Universe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Universe.h; sourceTree = "<group>"; };
+		EA587CD3170CA10A00BDE361 /* Universe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Universe.m; sourceTree = "<group>"; };
+		EA587CD6170CA37C00BDE361 /* RandomGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomGenerator.h; sourceTree = "<group>"; };
+		EA587CD7170CA37C00BDE361 /* RandomGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomGenerator.m; sourceTree = "<group>"; };
+		EA752C6C17206F0B00E19CA8 /* NavigationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationModel.h; sourceTree = "<group>"; };
+		EA752C6D17206F0B00E19CA8 /* NavigationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationModel.m; sourceTree = "<group>"; };
+		EA752C6F17208F4500E19CA8 /* SpiralGalaxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpiralGalaxy.h; sourceTree = "<group>"; };
+		EA752C7017208F4500E19CA8 /* SpiralGalaxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpiralGalaxy.m; sourceTree = "<group>"; };
+		EA752C72172090DF00E19CA8 /* PlanetarySystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetarySystem.h; sourceTree = "<group>"; };
+		EA752C73172090DF00E19CA8 /* PlanetarySystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetarySystem.m; sourceTree = "<group>"; };
+		EA752C75172094F300E19CA8 /* GalaxyCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalaxyCluster.h; sourceTree = "<group>"; };
+		EA752C76172094F300E19CA8 /* GalaxyCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalaxyCluster.m; sourceTree = "<group>"; };
+		EA752C781720959800E19CA8 /* Stellar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stellar.h; sourceTree = "<group>"; };
+		EA752C791720959800E19CA8 /* Stellar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stellar.m; sourceTree = "<group>"; };
+		EA752C7B1720A2E100E19CA8 /* StarCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarCluster.h; sourceTree = "<group>"; };
+		EA752C7C1720A2E100E19CA8 /* StarCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarCluster.m; sourceTree = "<group>"; };
+		EA752C7E1720A5AE00E19CA8 /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planet.h; sourceTree = "<group>"; };
+		EA752C7F1720A5AE00E19CA8 /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Planet.m; sourceTree = "<group>"; };
+		EA95908B1722DB8700580FFD /* DNPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNPoint.h; sourceTree = "<group>"; };
+		EA95908C1722DB8700580FFD /* DNPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNPoint.m; sourceTree = "<group>"; };
+		EA95908E1722DBAB00580FFD /* DNRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNRect.h; sourceTree = "<group>"; };
+		EA95908F1722DBAB00580FFD /* DNRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNRect.m; sourceTree = "<group>"; };
+		EA9590911722DBB700580FFD /* DNSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSize.h; sourceTree = "<group>"; };
+		EA9590921722DBB700580FFD /* DNSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSize.m; sourceTree = "<group>"; };
+		EA9590941723516C00580FFD /* SuperGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperGroup.h; sourceTree = "<group>"; };
+		EA9590951723516C00580FFD /* SuperGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperGroup.m; sourceTree = "<group>"; };
+		EA959097172352EE00580FFD /* SuperSuperGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperSuperGroup.h; sourceTree = "<group>"; };
+		EA959098172352EF00580FFD /* SuperSuperGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperSuperGroup.m; sourceTree = "<group>"; };
+		EA95909A1723532200580FFD /* SuperSuperSuperGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperSuperSuperGroup.h; sourceTree = "<group>"; };
+		EA95909B1723532200580FFD /* SuperSuperSuperGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperSuperSuperGroup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA1109D317206EBE004D6ABA /* Zoom */ = {
+			isa = PBXGroup;
+			children = (
+				EA752C6C17206F0B00E19CA8 /* NavigationModel.h */,
+				EA752C6D17206F0B00E19CA8 /* NavigationModel.m */,
+			);
+			name = Zoom;
+			sourceTree = "<group>";
+		};
 		EA587C9A170B6D7F00BDE361 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +142,11 @@
 		EA587CAC170B6D7F00BDE361 /* zoomtest */ = {
 			isa = PBXGroup;
 			children = (
+				EA9590841722DB2500580FFD /* Entities */,
+				EA1109D317206EBE004D6ABA /* Zoom */,
+				EA587CD9170CAA2200BDE361 /* Views */,
+				EA587CD5170CA36500BDE361 /* Math */,
+				EA587CD0170CA0D800BDE361 /* Stellar */,
 				EA587CB5170B6D7F00BDE361 /* AppDelegate.h */,
 				EA587CB6170B6D7F00BDE361 /* AppDelegate.m */,
 				EA587CBE170B6D7F00BDE361 /* MainStoryboard_iPhone.storyboard */,
@@ -108,6 +170,72 @@
 				EA587CBC170B6D7F00BDE361 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA587CD0170CA0D800BDE361 /* Stellar */ = {
+			isa = PBXGroup;
+			children = (
+				EA587CD1170CA0DF00BDE361 /* Abstract */,
+				EA587CD2170CA10A00BDE361 /* Universe.h */,
+				EA587CD3170CA10A00BDE361 /* Universe.m */,
+				EA752C75172094F300E19CA8 /* GalaxyCluster.h */,
+				EA752C76172094F300E19CA8 /* GalaxyCluster.m */,
+				EA752C6F17208F4500E19CA8 /* SpiralGalaxy.h */,
+				EA752C7017208F4500E19CA8 /* SpiralGalaxy.m */,
+				EA752C7B1720A2E100E19CA8 /* StarCluster.h */,
+				EA752C7C1720A2E100E19CA8 /* StarCluster.m */,
+				EA752C72172090DF00E19CA8 /* PlanetarySystem.h */,
+				EA752C73172090DF00E19CA8 /* PlanetarySystem.m */,
+				EA752C7E1720A5AE00E19CA8 /* Planet.h */,
+				EA752C7F1720A5AE00E19CA8 /* Planet.m */,
+				EA9590941723516C00580FFD /* SuperGroup.h */,
+				EA9590951723516C00580FFD /* SuperGroup.m */,
+				EA959097172352EE00580FFD /* SuperSuperGroup.h */,
+				EA959098172352EF00580FFD /* SuperSuperGroup.m */,
+				EA95909A1723532200580FFD /* SuperSuperSuperGroup.h */,
+				EA95909B1723532200580FFD /* SuperSuperSuperGroup.m */,
+			);
+			name = Stellar;
+			sourceTree = "<group>";
+		};
+		EA587CD1170CA0DF00BDE361 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				EA752C781720959800E19CA8 /* Stellar.h */,
+				EA752C791720959800E19CA8 /* Stellar.m */,
+			);
+			name = Abstract;
+			sourceTree = "<group>";
+		};
+		EA587CD5170CA36500BDE361 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				EA587CD6170CA37C00BDE361 /* RandomGenerator.h */,
+				EA587CD7170CA37C00BDE361 /* RandomGenerator.m */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		EA587CD9170CAA2200BDE361 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA587CCC170C9F8F00BDE361 /* AnyverseView.h */,
+				EA587CCD170C9F8F00BDE361 /* AnyverseView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EA9590841722DB2500580FFD /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EA95908B1722DB8700580FFD /* DNPoint.h */,
+				EA95908C1722DB8700580FFD /* DNPoint.m */,
+				EA9590911722DBB700580FFD /* DNSize.h */,
+				EA9590921722DBB700580FFD /* DNSize.m */,
+				EA95908E1722DBAB00580FFD /* DNRect.h */,
+				EA95908F1722DBAB00580FFD /* DNRect.m */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +308,22 @@
 				EA587CB3170B6D7F00BDE361 /* main.m in Sources */,
 				EA587CB7170B6D7F00BDE361 /* AppDelegate.m in Sources */,
 				EA587CC6170B6D7F00BDE361 /* ViewController.m in Sources */,
+				EA587CCE170C9F8F00BDE361 /* AnyverseView.m in Sources */,
+				EA587CD4170CA10A00BDE361 /* Universe.m in Sources */,
+				EA587CD8170CA37C00BDE361 /* RandomGenerator.m in Sources */,
+				EA752C6E17206F0B00E19CA8 /* NavigationModel.m in Sources */,
+				EA752C7117208F4500E19CA8 /* SpiralGalaxy.m in Sources */,
+				EA752C74172090DF00E19CA8 /* PlanetarySystem.m in Sources */,
+				EA752C77172094F300E19CA8 /* GalaxyCluster.m in Sources */,
+				EA752C7A1720959800E19CA8 /* Stellar.m in Sources */,
+				EA752C7D1720A2E100E19CA8 /* StarCluster.m in Sources */,
+				EA752C801720A5AE00E19CA8 /* Planet.m in Sources */,
+				EA95908D1722DB8700580FFD /* DNPoint.m in Sources */,
+				EA9590901722DBAB00580FFD /* DNRect.m in Sources */,
+				EA9590931722DBB700580FFD /* DNSize.m in Sources */,
+				EA9590961723516D00580FFD /* SuperGroup.m in Sources */,
+				EA959099172352EF00580FFD /* SuperSuperGroup.m in Sources */,
+				EA95909C1723532200580FFD /* SuperSuperSuperGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +373,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -277,6 +421,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "zoomtest/zoomtest-Prefix.pch";
 				INFOPLIST_FILE = "zoomtest/zoomtest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -288,6 +433,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "zoomtest/zoomtest-Prefix.pch";
 				INFOPLIST_FILE = "zoomtest/zoomtest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -312,6 +458,7 @@
 				EA587CCB170B6D7F00BDE361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
